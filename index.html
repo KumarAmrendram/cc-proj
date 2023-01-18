@@ -1,105 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="styles.css" />
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>E-learning</title>
+  </head>
 
-  <link rel="stylesheet" href="./css/index.css" />
-  <link rel="stylesheet" href="styles.css">
-
-  <title>E-learning</title>
-</head>
-
-<body>
-  <nav>
-    <div class="container">
-      <div class="logo">
-        <h1></h1>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <h1></h1>
+        </div>
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="#!">Home</a>
+            </li>
+            <li>
+              <a href="#!">Courses</a>
+            </li>
+            <li>
+              <a href="#!">Faculty</a>
+            </li>
+            <button class="primary-btn">Login</button>
+          </ul>
+        </div>
       </div>
-      <div class="menu">
-        <ul>
-          <li>
-            <a href="#!">Home</a>
-          </li>
-          <li>
-            <a href="#!">Courses</a>
-          </li>
-          <li>
-            <a href="#!">Faculty</a>
-          </li>
-          <button class="primary-btn">Login</button>
-        </ul>
+    </nav>
+
+    <!-- header -->
+    <div class="container hero">
+      <div class="row">
+        <div class="col-sm grid-left">
+          <h1>Learn on your</h1>
+          <h1>Schedule from</h1>
+          <h1>Anywhere</h1>
+          <div class="flex">
+            <div class="playstore">
+              <img src="./images/playstore.png" alt="" />
+              Download our App on Playstore
+            </div>
+            <div class="video">
+              <a href="#!">
+                Watch Video
+                <img src="./images/video.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm grid-right">
+          <img src="./images/hero-image.svg" alt="" />
+        </div>
+      </div>
+
+      <!-- courses -->
+      <div class="courses container">
+        <div class="row">
+          <div class="col-sm-6 grid-left">
+            <img src="./images/courses-img.png" alt="" />
+          </div>
+          <div class="col-sm-6 grid-right">
+            <h1>E-Learning Courses</h1>
+            <h1>for IIT-JEE & NEET</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              expedita culpa quae minus exercitationem tempora aperiam rem
+              dignissimos? Recusandae placeat vitae impedit consectetur non ea
+              suscipit dolores, accusantium totam maxime?
+            </p>
+            <a href="#!" class="primary-btn">Register</a>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
 
-
-  <section class="container" id="FAQ">
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
-            <span class="question">How do I get started</span>
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-          data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
-            adds the appropriate classes that we use to style each element. These classes control the overall
-            appearance, as well as the showing and hiding via CSS transitions.
+    <section class="container" id="FAQ">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <span class="question">How do I get started</span>
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is
+              shown by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control
+              the overall appearance, as well as the showing and hiding via CSS
+              transitions.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <span class="question">Are demo classes are free ?</span>
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>Yes, they are free. </strong> More details about the demo
+              classes will be provided by our counselor.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <span class="question"
+                >I have downloaded the app but the screen is not loading. what
+                do I do?</span
+              >
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              If the screen is stuck or not loading further, please uninstall
+              and reinstall the app, making sure there’s an active internet
+              connection to do so. If you’re still facing the issue, please send
+              an email to support@byjus.com along with details of your device
+              and Operating System (OS) which will help us better troubleshoot
+              the issue.
+            </div>
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            <span class="question">Are demo classes are free ?</span>
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-          data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>Yes, they are free. </strong> More details about the demo classes will be provided by our counselor.
+    </section>
 
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            <span class="question">I have downloaded the app but the screen is not loading. what do I do?</span>
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-          data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            If the screen is stuck or not loading further, please uninstall and reinstall the app, making sure there’s
-            an active internet connection to do so. If you’re still facing the issue, please send an email to
-            support@byjus.com along with details of your device and Operating System (OS) which will help us better
-            troubleshoot the issue.
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,0 +1,28 @@
+.courses {
+  margin: 8rem 0;
+  box-shadow: 0px 30px 60px -12px rgba(50, 50, 93, 0.2);
+  padding: 2rem;
+
+  .grid-left {
+    img {
+      width: 100%;
+    }
+  }
+
+  .grid-right {
+    padding: 1rem;
+    h1 {
+      color: #323232;
+    }
+
+    p {
+      color: rgba(0, 0, 0, 0.68);
+      margin-top: 10px;
+      line-height: 2;
+    }
+
+    .primary-btn {
+      width: fit-content;
+    }
+  }
+}
