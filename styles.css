@@ -19,3 +19,18 @@ body {
 .accordion-item {
  border: none;
 }
+
+footer {
+  background-color: #000;
+}
+
+.img-log-div {
+  overflow:hidden ;
+  height: 39px;
+}
+
+.img-logo {
+position: relative;
+top: -20px;
+filter: grayscale();
+}
