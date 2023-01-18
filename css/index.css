@@ -15,7 +15,6 @@ a:hover {
 
 nav {
   background: #fff;
-  padding: 20px 0;
 }
 nav .container {
   width: 80%;
@@ -24,7 +23,7 @@ nav .container {
   align-items: center;
   justify-content: space-between;
 }
-nav .container .logo {
+nav .container .logo img {
   width: 50%;
 }
 nav .container .menu {
@@ -39,6 +38,23 @@ nav .container .menu ul {
 nav .container .menu ul li a {
   text-decoration: none;
   color: #1e1e1e;
+  font-size: 14px;
+  position: relative;
+}
+nav .container .menu ul li a:before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #3b3b3b;
+  transition: all 0.4s;
+  bottom: -10px;
+  left: 0;
+  transform: scaleX(0);
+}
+nav .container .menu ul li a:hover:before {
+  transform: scaleX(1);
 }
 
 .primary-btn {
@@ -61,9 +77,10 @@ nav .container .menu ul li a {
 }
 .hero .grid-right img {
   width: 100%;
+  margin-left: 3rem;
 }
 .hero .grid-left {
-  margin-top: 1rem;
+  margin-top: 4rem;
 }
 .hero .grid-left .flex {
   display: flex;
@@ -94,6 +111,13 @@ nav .container .menu ul li a {
   box-shadow: 0px 30px 60px -12px rgba(50, 50, 93, 0.2);
   padding: 2rem;
 }
+.courses .heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #1e1e1e;
+  margin: 20px 0;
+  font-weight: bold;
+}
 .courses .grid-left img {
   width: 100%;
 }
@@ -107,9 +131,33 @@ nav .container .menu ul li a {
   color: rgba(0, 0, 0, 0.68);
   margin-top: 10px;
   line-height: 2;
+  font-size: 14px;
 }
 .courses .grid-right .primary-btn {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.accordion-button {
+  outline: none !important;
+  background: #fff !important;
+  color: #121212 !important;
+}
+.accordion-button span {
+  font-size: 1rem;
+}
+.accordion-button:hover {
+  background-color: #fff;
+}
+
+.faq {
+  width: 100%;
+}
+.faq h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1e1e1e;
+  margin: 20px 0;
+  font-weight: bold;
 }/*# sourceMappingURL=index.css.map */

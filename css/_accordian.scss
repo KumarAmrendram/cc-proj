@@ -1,0 +1,12 @@
+.accordion-button {
+  span {
+    font-size: 1rem;
+  }
+  outline: none !important;
+  background: #fff !important;
+  color: #121212 !important;
+
+  &:hover {
+    background-color: #fff;
+  }
+}

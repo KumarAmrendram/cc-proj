@@ -1,4 +1,12 @@
 .courses {
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #1e1e1e;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+
   margin: 8rem 0;
   box-shadow: 0px 30px 60px -12px rgba(50, 50, 93, 0.2);
   padding: 2rem;
@@ -19,6 +27,7 @@
       color: rgba(0, 0, 0, 0.68);
       margin-top: 10px;
       line-height: 2;
+      font-size: 14px;
     }
 
     .primary-btn {
