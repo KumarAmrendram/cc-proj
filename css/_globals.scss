@@ -8,3 +8,12 @@
 $gradient: linear-gradient(#2bb1fd, #0f76b0);
 $light-blue: #2bb1fd;
 $dark-blue: #0f76b0;
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.68);
+
+  &:hover {
+    color: #000;
+  }
+}

@@ -5,6 +5,14 @@
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.68);
+}
+a:hover {
+  color: #000;
+}
+
 nav {
   background: #fff;
   padding: 20px 0;
@@ -37,8 +45,71 @@ nav .container .menu ul li a {
   background: linear-gradient(#2bb1fd, #0f76b0);
   display: block;
   padding: 10px 24px;
-  border-radius: 10px;
+  border-radius: 7px;
   color: #fff;
   border: none;
   outline: none;
+}
+.primary-btn:hover {
+  color: #fff;
+}
+
+.hero h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.hero .grid-right img {
+  width: 100%;
+}
+.hero .grid-left {
+  margin-top: 1rem;
+}
+.hero .grid-left .flex {
+  display: flex;
+  margin: 10px 0;
+}
+.hero .grid-left .flex .playstore {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+}
+.hero .grid-left .flex .video {
+  margin-left: 20px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.68);
+  align-items: center;
+}
+.hero .grid-left .flex .video img {
+  margin-left: 9px;
+}
+
+.courses {
+  margin: 8rem 0;
+  box-shadow: 0px 30px 60px -12px rgba(50, 50, 93, 0.2);
+  padding: 2rem;
+}
+.courses .grid-left img {
+  width: 100%;
+}
+.courses .grid-right {
+  padding: 1rem;
+}
+.courses .grid-right h1 {
+  color: #323232;
+}
+.courses .grid-right p {
+  color: rgba(0, 0, 0, 0.68);
+  margin-top: 10px;
+  line-height: 2;
+}
+.courses .grid-right .primary-btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }/*# sourceMappingURL=index.css.map */
